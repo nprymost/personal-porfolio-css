@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tash Prymost</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5d86b86261.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar" class="grid">
+        <h1>Tash Prymost</h1>
+        <ul>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- burger menu -->
+    <div id="dropdown">
+        <i class="fa-solid fa-bars fa-xl" id="nav-icon"></i>
+        <div id="dropdown-menu">
+          <li><a class="dropdown-link" href="#projects">Portfolio</a></li>
+          <li><a class="dropdown-link" href="#skills">Skills</a></li>
+          <li><a class="dropdown-link" href="#contact">Contact</a></li>
+        </div>
+      </div>
+      <!-- end burger menu -->
+    
+    <section id="welcome-section" class="grid">
+        <div id="welcome-text">
+            <h1>Web Developer<br />& Perpetual Learner</h1>
+            <p class="leading">Bright and colorful future is just around the corner...</p>
+            <a href="#projects" class="button">View my projects</a>
+        </div>
+        <div class="welcome-img">
+            <img src="assets/nata1.jpg" class="personal-img" alt="picture of tash smiling with her hands up and eyes closed, wearing a striped longsleeved tshirt and jeans, seating at the table">
+        </div>
+        <div class="art-img">
+            <img src="assets/art2.png" class="personal-img" alt="art purple lines">
+        </div>
+     </section>
+
+    <section id="vh">
+    <section id="projects">
+        <h3>Some of my projects</h3>
+        <div class="projects-grid grid projects">
+            <a href="https://codepen.io/nprymost/pen/ExLqQNZ" target="_blank" class="project-tile">
+                <img src="assets/project1.jpg" class="project-img" alt="landing page for Anna, founder of KinesioSomatics. Natasha's friend who agreed to make this landing page a project for freeCodecamp portfolio">
+                <h4 class="project-title">Landing Page</h4>
+            </a>
+            <a href="https://codepen.io/nprymost/pen/MWGLPWQ" target="_blank" class="project-tile">
+                <img src="assets/project2.jpg" class="project-img" alt="project for freeCodecamp with a documentation page">
+                <h4 class="project-title">Documentation</h4>
+            </a>
+            <a href="https://codepen.io/nprymost/pen/WNJZvwP" target="_blank" class="project-tile">
+                <img src="assets/project3.jpg" class="project-img" alt="fan project, Stan Lee page with some biography facts and old comic books pages">
+                <h4 class="project-title">Stan Lee Fan Page</h4>
+            </a>
+        </div>
+        
+    </section>
+
+    <div class="grid show-all">
+            <a href="https://codepen.io/your-work/" target="_blank" class="button">
+            Show all
+            <i class="fa-solid fa-arrow-right"></i>
+            </a>
+    </div>
+    </section> 
+    <section id="skills">
+        <h3>Things I've Learned</h3>
+        <ul class="grid">
+            <li>
+                <i class="fa-brands fa-html5 fa-2xl"></i>
+                <h4>HTML</h4>
+            </li>
+            <li>
+                <i class="fa-brands fa-css3 fa-2xl"></i>
+                <h4>CSS</h4>
+            </li>
+            <li>
+                <i class="fa-brands fa-js fa-2xl"></i>
+                <h4>JavaScript</h4>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h3>Let's get in touch!</h3>
+        <p class="leading">I can't wait to work with you</p>
+        <form action="mailto:info@w3docs.com" method="get" enctype="text/plain">
+            <input type="text" placeholder="text here">
+            <input type="email" placeholder="email here">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="your message here..."></textarea>
+            <button class="button">Send Message</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <div class="grid">
+            <p class="copyright">© <small>2022</small> Tash Prymost</p>
+            <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com/natasha.prymost" target="_blank"><i class="fa-brands fa-facebook icon-size "></i></a>
+                    <div class="tooltip">
+                        <!-- <span class="tooltiptext">Facebook</span> -->
+                    </div>
+                </li>
+                <li>
+                    <a href="https://github.com/nprymost" target="_blank"><i class="fa-brands fa-github icon-size"></i></a>
+                        <div class="tooltip">
+                        <!-- <span class="tooltiptext">GitHub</span> -->
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+    <div id="social-sidebar">
+        <ul class="social">
+            <li>
+                <a href="https://www.facebook.com/natasha.prymost" target="blank"><i class="fa-brands fa-facebook icon-size "></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/nprymost" target="blank"><i class="fa-brands fa-github icon-size"></i></a>
+            </li>
+        </ul>
+    </div>
+    <div id="scroll">
+        <a href="#navbar"><i class="fa-solid fa-chevron-up fa-2xl"></i></a>
+    </div>
+</body>
+</html>
